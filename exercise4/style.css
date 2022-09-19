@@ -1,0 +1,48 @@
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  color: blue;
+}
+
+h3 {
+  background-color: #ffff00;
+}
+
+h4 {
+  color: #ffff00;
+  background-color: #006600
+}
+
+a:link {
+  color: green;
+}
+
+#specialid {
+  background-color: green;
+}
+
+#divydivs {
+  background-color: #66ccff;
+}
+
+#divydivs2 {
+  color: red;
+}
+
+#divydivs3 {
+  background-color: #ffff00;
+}
+
+h5 {
+  color: red;
+}
+
+.turnyellow {
+  color: #ffcc00;
+}
+
+.turnblue {
+  color: blue;
+}
