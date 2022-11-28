@@ -1,0 +1,144 @@
+body {
+  background-image: url(background1.png);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+  margin: 24px auto;
+  margin-top: 0px;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: rgb(47,167,255);
+background: linear-gradient(180deg, rgba(47,167,255,1) 0%, rgba(46,164,250,1) 35%, rgba(24,84,128,1) 100%);;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+/* This is for the dummy columns, replace or delete */
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+header {
+  background-color: #ffffff;
+  grid-column: span 12;
+  color: #000000;
+  margin-bottom: 0px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  text-transform: uppercase;
+}
+
+i {
+  font-size: 24px;
+}
+nav {
+  grid-column: span 12;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  margin-left: 300px;
+  list-style: none;
+  grid-column: span 12;
+}
+
+nav li {
+  margin-left: 100px;
+  width: 150px;
+  background-color: #2fa7ff;
+  display: inline-block;
+  grid-column: span 12;
+}
+
+nav li a {
+display: block;
+width: 200px;
+  padding: 10px;
+  color: white;
+  grid-column: span 12;
+  text-decoration: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  transition: all 1s;
+  width: 130px;
+}
+
+nav li a:hover {
+  background-color: #6600cc;
+}
+main {
+  grid-column: span 12;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+footer {
+  background-color: #001791;
+  color: white;
+  padding-left: 10px;
+  font-size: 24px;
+  grid-column: span 12;
+
+}
+
+img {
+  width: 1200px;
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+box-shadow: 10px 10px 10px #3333cc; /* x, y, blur, color */
+}
+
+.Birdhouse_thumb {
+  width: 400px;
+  margin-left: 150px;
+  margin-right: 153px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc; /* x, y, blur, color */
+}
+
+.Camera_thumb {
+  width: 400px;
+  margin-left: 150px;
+  margin-right: 153px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc; /* x, y, blur, color */
+}
+
+.Snowman_thumb {
+  width: 400px;
+  margin-left: 650px;
+  margin-right: 153px;
+  margin-top: 0px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc; /* x, y, blur, color */
+}
+
+.Sea_thumb {
+  width: 400px;
+  margin-left: 650px;
+  margin-right: 153px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc; /* x, y, blur, color */
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+
+p {
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+  font-family: first-font;
+  grid-column: span 12;
+}
+@font-face { font-family: first-font;
+  src: url(first font.ttf);
+}
+
+audio {
+  width: 200px;
+  margin-top: 24px;
+}
