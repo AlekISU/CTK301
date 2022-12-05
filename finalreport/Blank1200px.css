@@ -1,0 +1,223 @@
+body {
+  background-image: url(background1.png);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+  margin: 24px auto;
+  margin-top: 0px;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: rgb(47,167,255);
+background: linear-gradient(180deg, rgba(47,167,255,1) 0%, rgba(46,164,250,1) 35%, rgba(24,84,128,1) 100%);;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+/* This is for the dummy columns, replace or delete */
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+header {
+  background-color: #ffffff;
+  grid-column: span 12;
+  color: #000000;
+  margin-bottom: 0px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  text-transform: uppercase;
+}
+
+i {
+  font-size: 24px;
+}
+nav {
+  grid-column: span 12;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  margin-left: 150px;
+  list-style: none;
+  grid-column: span 12;
+}
+
+nav li {
+  margin-left: 100px;
+  width: 150px;
+  background-color: #2fa7ff;
+  display: inline-block;
+  grid-column: span 12;
+}
+
+nav li a {
+display: block;
+width: 200px;
+  padding: 10px;
+  color: white;
+  grid-column: span 12;
+  text-decoration: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  transition: all 1s;
+  width: 130px;
+}
+
+nav li a:hover {
+  background-color: #6600cc;
+}
+main {
+  grid-column: span 12;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+footer {
+  background-color: #001791;
+  color: white;
+  padding-left: 10px;
+  font-size: 24px;
+  grid-column: span 12;
+
+}
+
+img {
+  width: 1200px;
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+margin-bottom: 24px;
+box-shadow: 10px 10px 10px #3333cc; /* x, y, blur, color */
+}
+.About {
+  width: 350px;
+  float: left;
+  margin-top: 24px;
+  padding: 5px 5px 5px 5px;
+  border: 3px solid #3333cc;
+  margin: 0  20px 0px 0;
+}
+.Birdhouse_thumb {
+  width: 400px;
+  margin-left: 150px;
+  margin-right: 100px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc; /* x, y, blur, color */
+}
+
+.Camera_thumb {
+  width: 400px;
+  margin-left: 150px;
+  margin-right: 100px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc; /* x, y, blur, color */
+}
+
+.Snowman_thumb {
+  width: 400px;
+  margin-right: 100px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc; /* x, y, blur, color */
+}
+
+.Sea_thumb {
+  width: 400px;
+  margin-right: 100px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc; /* x, y, blur, color */
+}
+.Woman_thumb {
+  width: 300px;
+  margin-left: 100px;
+  margin-right: 24px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc;
+}
+.Farm_thumb{
+  width: 300px;
+  margin-right: 24px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc;
+}
+.WallpaperZ_thumb{
+  width: 300px;
+  margin-right: 24px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc;
+}
+.WallpaperN_thumb{
+  width: 300px;
+  margin-left: 100px;
+  margin-right: 24px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc;
+}
+.Genshin_thumb{
+  width: 300px;
+  margin-right: 24px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc;
+}
+.Marcus_thumb{
+  width: 300px;
+  margin-right: 24px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc;
+}
+.Alayah_thumb{
+  width: 300px;
+  margin-left: 100px;
+  margin-right: 24px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc;
+}
+.Alex_thumb{
+  width: 300px;
+  margin-right: 24px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc;
+}
+.Jennie_thumb{
+  width: 300px;
+  margin-right: 24px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc;
+}
+.Devin_thumb{
+  width: 300px;
+  margin-left: 100px;
+  margin-right: 24px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc;
+}
+.Anna_thumb{
+  width: 300px;
+  margin-right: 24px;
+  margin-bottom: 17px;
+  box-shadow: 10px 10px 10px #3333cc;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+span {
+  margin-left: 200px;
+  width: 1200px;
+  margin-top: 0px;
+}
+
+p {
+  color: white;
+  text-align: justify;
+  font-family: first-font;
+  grid-column: span 12;
+}
+@font-face { font-family: first-font;
+  src: url(first font.ttf);
+}
+
+h1{
+  color: #ffffff;
+  text-decoration: underline;
+  font-family: first-font;
+}
